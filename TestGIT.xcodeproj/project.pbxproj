@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE404DCA1366D1FB003542AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE404DC91366D1FB003542AC /* UIKit.framework */; };
+		CE404DCC1366D1FB003542AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE404DCB1366D1FB003542AC /* Foundation.framework */; };
+		CE404DCE1366D1FB003542AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE404DCD1366D1FB003542AC /* CoreGraphics.framework */; };
+		CE404DD41366D1FB003542AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE404DD21366D1FB003542AC /* InfoPlist.strings */; };
+		CE404DD71366D1FB003542AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE404DD61366D1FB003542AC /* main.m */; };
+		CE404DDA1366D1FB003542AC /* TestGITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE404DD91366D1FB003542AC /* TestGITAppDelegate.m */; };
+		CE404DDD1366D1FB003542AC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE404DDB1366D1FB003542AC /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE404DC51366D1FB003542AC /* TestGIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE404DC91366D1FB003542AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE404DCB1366D1FB003542AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE404DCD1366D1FB003542AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE404DD11366D1FB003542AC /* TestGIT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGIT-Info.plist"; sourceTree = "<group>"; };
+		CE404DD31366D1FB003542AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE404DD51366D1FB003542AC /* TestGIT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestGIT-Prefix.pch"; sourceTree = "<group>"; };
+		CE404DD61366D1FB003542AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE404DD81366D1FB003542AC /* TestGITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGITAppDelegate.h; sourceTree = "<group>"; };
+		CE404DD91366D1FB003542AC /* TestGITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGITAppDelegate.m; sourceTree = "<group>"; };
+		CE404DDC1366D1FB003542AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE404DC21366D1FB003542AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE404DCA1366D1FB003542AC /* UIKit.framework in Frameworks */,
+				CE404DCC1366D1FB003542AC /* Foundation.framework in Frameworks */,
+				CE404DCE1366D1FB003542AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE404DBA1366D1FB003542AC = {
+			isa = PBXGroup;
+			children = (
+				CE404DCF1366D1FB003542AC /* TestGIT */,
+				CE404DC81366D1FB003542AC /* Frameworks */,
+				CE404DC61366D1FB003542AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE404DC61366D1FB003542AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE404DC51366D1FB003542AC /* TestGIT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE404DC81366D1FB003542AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE404DC91366D1FB003542AC /* UIKit.framework */,
+				CE404DCB1366D1FB003542AC /* Foundation.framework */,
+				CE404DCD1366D1FB003542AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE404DCF1366D1FB003542AC /* TestGIT */ = {
+			isa = PBXGroup;
+			children = (
+				CE404DD81366D1FB003542AC /* TestGITAppDelegate.h */,
+				CE404DD91366D1FB003542AC /* TestGITAppDelegate.m */,
+				CE404DDB1366D1FB003542AC /* MainWindow.xib */,
+				CE404DD01366D1FB003542AC /* Supporting Files */,
+			);
+			path = TestGIT;
+			sourceTree = "<group>";
+		};
+		CE404DD01366D1FB003542AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE404DD11366D1FB003542AC /* TestGIT-Info.plist */,
+				CE404DD21366D1FB003542AC /* InfoPlist.strings */,
+				CE404DD51366D1FB003542AC /* TestGIT-Prefix.pch */,
+				CE404DD61366D1FB003542AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE404DC41366D1FB003542AC /* TestGIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE404DE01366D1FB003542AC /* Build configuration list for PBXNativeTarget "TestGIT" */;
+			buildPhases = (
+				CE404DC11366D1FB003542AC /* Sources */,
+				CE404DC21366D1FB003542AC /* Frameworks */,
+				CE404DC31366D1FB003542AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGIT;
+			productName = TestGIT;
+			productReference = CE404DC51366D1FB003542AC /* TestGIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE404DBC1366D1FB003542AC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CE404DBF1366D1FB003542AC /* Build configuration list for PBXProject "TestGIT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE404DBA1366D1FB003542AC;
+			productRefGroup = CE404DC61366D1FB003542AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE404DC41366D1FB003542AC /* TestGIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE404DC31366D1FB003542AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE404DD41366D1FB003542AC /* InfoPlist.strings in Resources */,
+				CE404DDD1366D1FB003542AC /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE404DC11366D1FB003542AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE404DD71366D1FB003542AC /* main.m in Sources */,
+				CE404DDA1366D1FB003542AC /* TestGITAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE404DD21366D1FB003542AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE404DD31366D1FB003542AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE404DDB1366D1FB003542AC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE404DDC1366D1FB003542AC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE404DDE1366D1FB003542AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE404DDF1366D1FB003542AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE404DE11366D1FB003542AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGIT/TestGIT-Prefix.pch";
+				INFOPLIST_FILE = "TestGIT/TestGIT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE404DE21366D1FB003542AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGIT/TestGIT-Prefix.pch";
+				INFOPLIST_FILE = "TestGIT/TestGIT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE404DBF1366D1FB003542AC /* Build configuration list for PBXProject "TestGIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE404DDE1366D1FB003542AC /* Debug */,
+				CE404DDF1366D1FB003542AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE404DE01366D1FB003542AC /* Build configuration list for PBXNativeTarget "TestGIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE404DE11366D1FB003542AC /* Debug */,
+				CE404DE21366D1FB003542AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE404DBC1366D1FB003542AC /* Project object */;
+}
